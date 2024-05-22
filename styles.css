@@ -21,10 +21,21 @@ body{
     top: 250px;
 }
 #main-div > #blue-div > #white-div1 > #red-div1{
+    display: flex;
+    flex-direction: row;
     height: 50px;
     width: 1200px;
     background-color: #DC1E35;
+    position: absolute;
 
+}
+#main-div > #blue-div > #white-div1 > #red-div1 > #join{
+    height: 100px;
+    width: 50px;
+    background-color: #DC1E35;
+    position: absolute;
+    top: -25px;
+    left: 275px;
 }
 #main-div > #blue-div > #white-div2{
     height: 600px;
